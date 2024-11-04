@@ -1,22 +1,30 @@
+
+/* Coolor Palette */
+/* https://coolors.co/0f1108-87e752-241909-157f1f-e3dbdb */
+
 /* Section fonts ------------------------------- */
 
 header {
-    background-color: green;
+    background-color: #157F1F;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+    color: #E3DBDB;
 }
 h2 {
     font-family: Arial, Helvetica, sans-serif;
+    color: #87E752;
 }
 h3 {
     font-family: Arial, Helvetica, sans-serif;
+    color: #87E752;
 }
 
 body {
-    background-color: grey;
+    background-color: #0F1108;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #E3DBDB;
 }
 
 @media (width > 320px) {
@@ -32,11 +40,10 @@ body {
 }
 /* Nav Menu ------------------------------------- */
 nav a {
-    color: whitesmoke;
-    text-decoration: none; 
+    color: whitesmoke; 
   }
   nav a:hover {
-    color: #e74c3c;
+    color: #87E752;
   }
 nav ul a{
     background-color: green;
@@ -46,11 +53,10 @@ nav ul a{
 
 /* list item background ---------------------------- */
 ol li:nth-child(odd) {
-    background-color: #c8c8c8;
+    background-color: #241909;
     padding: .5rem; 
   }
   ol li:nth-child(even) {
-    background-color: white;
     padding: .5rem;  
   }
 ol {
@@ -59,10 +65,7 @@ ol {
 }
 /* table row background ----------------------------- */
 table tr:nth-child(odd) {
-    background-color: #c8c8c8;  
-  }
-  table tr:nth-child(even) {
-    background-color: white;
+    background-color: #241909;  
   }
 table {
     outline: auto;
