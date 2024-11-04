@@ -29,3 +29,20 @@ body {
         font-size: 2rem;
     }
 }
+
+
+/* list item background */
+ol li:nth-child(odd) {
+    background-color: #f0f0f0; 
+  }
+ol {
+    outline: auto;
+}
+/* table row background */
+table tr:nth-child(odd) {
+    background-color: #f0f0f0; 
+  }
+table {
+    outline: auto;
+}
+  
