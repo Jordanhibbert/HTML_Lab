@@ -1,3 +1,4 @@
+/* Section fonts ------------------------------- */
 
 header {
     background-color: green;
@@ -29,20 +30,40 @@ body {
         font-size: 2rem;
     }
 }
+/* Nav Menu ------------------------------------- */
+nav a {
+    color: whitesmoke;
+    text-decoration: none; 
+  }
+  nav a:hover {
+    color: #e74c3c;
+  }
+nav ul a{
+    background-color: green;
+    flex-direction: row;
+    justify-content: center;
+}
 
-
-/* list item background */
+/* list item background ---------------------------- */
 ol li:nth-child(odd) {
-    background-color: #f0f0f0; 
+    background-color: #c8c8c8;
+    padding: .5rem; 
+  }
+  ol li:nth-child(even) {
+    background-color: white;
+    padding: .5rem;  
   }
 ol {
     outline: auto;
+    
 }
-/* table row background */
+/* table row background ----------------------------- */
 table tr:nth-child(odd) {
-    background-color: #f0f0f0; 
+    background-color: #c8c8c8;  
+  }
+  table tr:nth-child(even) {
+    background-color: white;
   }
 table {
     outline: auto;
 }
-  
