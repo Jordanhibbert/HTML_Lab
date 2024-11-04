@@ -1,7 +1,20 @@
 
+header {
+    background-color: green;
+}
 
-
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body {
     background-color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
