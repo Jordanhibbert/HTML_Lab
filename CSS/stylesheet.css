@@ -18,3 +18,14 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+@media (width > 320px) {
+    header nav ul {
+        flex-direction: row;
+    }
+}
+
+@media (width > 768px){
+    header nav ul {
+        font-size: 2rem;
+    }
+}
