@@ -46,9 +46,10 @@ nav a {
     color: #87E752;
   }
 nav ul a{
-    background-color: green;
+    background-color: #241909;
+    padding: 1rem;
     flex-direction: row;
-    justify-content: center;
+    justify-content:left;
 }
 
 /* list item background ---------------------------- */
@@ -69,4 +70,9 @@ table tr:nth-child(odd) {
   }
 table {
     outline: auto;
+}
+/* Footer --------------------------------------------- */
+footer {
+    background-color: #157F1F;
+    padding: 1rem;
 }
