@@ -1,0 +1,102 @@
+
+/* Coolor Palette */
+/* https://coolors.co/0f1108-87e752-241909-157f1f-e3dbdb */
+
+/* Section fonts ------------------------------- */
+
+header {
+    background-color: #157F1F;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E3DBDB;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #87E752;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #87E752;
+}
+
+body {
+    background-color: #0F1108;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #E3DBDB;
+}
+/* media query -------------------------------------- */
+@media only screen and (min-width: 601px) {
+    div.header1 {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    div.header1 {
+      font-size: 25px;
+    }
+  }
+
+@media only screen and (min-width: 601px) {
+    div.body1 {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    div.body1 {
+      font-size: 25px;
+    }
+  }
+
+@media (width > 320px) {
+    header nav ul {
+        flex-direction: row;
+    }
+}
+
+@media (width > 768px){
+    header nav ul {
+        font-size: 2rem;
+    }
+}
+/* Nav Menu ------------------------------------- */
+nav a {
+    color: whitesmoke; 
+  }
+  nav a:hover {
+    color: #87E752;
+  }
+nav ul a{
+    background-color: #241909;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content:left;
+}
+
+/* list item background ---------------------------- */
+ol li:nth-child(odd) {
+    background-color: #241909;
+    padding: .5rem; 
+  }
+  ol li:nth-child(even) {
+    padding: .5rem;  
+  }
+ol {
+    outline: auto;
+    
+}
+/* table row background ----------------------------- */
+table tr:nth-child(odd) {
+    background-color: #241909;  
+  }
+table {
+    outline: auto;
+}
+/* Footer --------------------------------------------- */
+footer {
+    background-color: #157F1F;
+    padding: 1rem;
+}
