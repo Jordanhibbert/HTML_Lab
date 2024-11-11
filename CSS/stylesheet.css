@@ -26,6 +26,30 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #E3DBDB;
 }
+/* media query -------------------------------------- */
+@media only screen and (min-width: 601px) {
+    div.header1 {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    div.header1 {
+      font-size: 25px;
+    }
+  }
+
+@media only screen and (min-width: 601px) {
+    div.body1 {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    div.body1 {
+      font-size: 25px;
+    }
+  }
 
 @media (width > 320px) {
     header nav ul {
