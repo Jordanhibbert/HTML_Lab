@@ -36,6 +36,22 @@ alertButton.addEventListener('mouseout', function () {
     alertButton.innerHTML = 'Press Me!';
 });
 
+// Ordered list ------------------------------------------------------------
+
+const numbersList = document.getElementById('numbers');
+
+for (let i = 1; i <= 12; i = i + 1) {
+
+  const listItem = document.createElement('li');
+  
+  if (i % 2 === 0) {
+    listItem.textContent = 'Even';
+  } else {
+    listItem.textContent = 'Odd';
+  }
+  
+  numbersList.appendChild(listItem);
+}
 
 // footer 1 year ------------------------------------------------------------
 const currentYear = new Date().getFullYear();
