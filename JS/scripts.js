@@ -69,6 +69,5 @@ const otherFooter = document.querySelector('footer nav');
 if (otherFooter) {
   const copyright = document.createElement('p');
   copyright.innerHTML = `&copy; Jordan Hibbert, ${currentYear}. All rights reserved.`;
-  otherFooter.after(copyright);
   console.log(`Today's date: ${new Date().toDateString()}`);
 }
