@@ -100,3 +100,29 @@ footer {
     background-color: #157F1F;
     padding: 1rem;
 }
+
+/* JAVA GREETING ---------------------------------------- */
+
+.morning {
+  background-color: #FFFAE3; 
+  color: #8B4513; /* saddle brown */
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.afternoon {
+  background-color: #FFFACD; 
+  color: #DAA520; 
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.evening {
+  background-color: #2F4F4F; 
+  color: #E3DBDB; 
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}

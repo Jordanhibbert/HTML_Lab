@@ -1,10 +1,40 @@
+// Greeting -------------------------------------------------------
 
+const greetingContainer = document.getElementById('greeting');
+const currentHour = new Date().getHours();
 
+let greetingText = '';
+let greetingClass = '';
 
+if (currentHour < 12) {
+    greetingText = 'Good morning!';
+    greetingClass = 'morning';
+} else if (currentHour >= 12 && currentHour < 17) {
+    greetingText = 'Good afternoon!';
+    greetingClass = 'afternoon';
+} else {
+    greetingText = 'Good evening!';
+    greetingClass = 'evening';
+}
 
+greetingContainer.textContent = greetingText;
+greetingContainer.classList.add(greetingClass);
 
+// Button Alert -----------------------------------------------------------
 
+const alertButton = document.getElementById('alert');
 
+alertButton.addEventListener('click', function () {
+    alert('Howdy!');
+});
+
+alertButton.addEventListener('mouseover', function () {
+    alertButton.innerHTML = 'Do Not Press!';
+});
+
+alertButton.addEventListener('mouseout', function () {
+    alertButton.innerHTML = 'Press Me!';
+});
 
 
 // footer 1 year ------------------------------------------------------------
